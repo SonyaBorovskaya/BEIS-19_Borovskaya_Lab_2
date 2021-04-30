@@ -89,7 +89,7 @@ namespace WindowsFormsApp1
             try
             {
              
-                label6.Text = "Корень";
+                label6.Text = "Корень из числа";
                 num1 = Convert.ToDouble(textBox1.Text);
                 num2 = Convert.ToDouble(textBox2.Text);
                 res = Math.Sqrt(num1); 
