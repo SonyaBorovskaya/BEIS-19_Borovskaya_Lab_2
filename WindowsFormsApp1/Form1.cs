@@ -88,11 +88,11 @@ namespace WindowsFormsApp1
         {
             try
             {
-                label3.Text = "/";
-                label6.Text = "деления";
+             
+                label6.Text = "Корень";
                 num1 = Convert.ToDouble(textBox1.Text);
                 num2 = Convert.ToDouble(textBox2.Text);
-                res = num1 / num2;
+                res = Math.Sqrt(num1); 
                 textBox3.Text = $"{res}";
             }
             catch
